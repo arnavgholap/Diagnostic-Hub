@@ -25,7 +25,7 @@ SentiCast is a media streaming platform that incorporates an interactive comment
 - **MongoDB:** For scalable and flexible database management.
 - **Python:**  Used for backend services and sentiment analysis model integration.
   
-#### Libraries
+### Libraries
 
 - **LSTM:** For sentiment analysis.
 - **Logistic Regression, LinearSVC, Random Forest:** For exploring sentiment analysis techniques.
