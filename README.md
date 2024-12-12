@@ -1,6 +1,6 @@
-## SentiCast
+### SentiCast
 
-SentiCast is a media streaming platform that incorporates an interactive comment section, a feature not available in major platforms like Netflix and Prime. The platform features a personalized content recommendation system powered by content-based filtering with cosine similarity. It also performs sentiment analysis on user comments, initially tested with multiple models and ultimately optimized with an LSTM model for higher accuracy. The system enhances user interaction and engagement by providing personalized content suggestions based on sentiment insights.
+SentiCast is a media streaming platform that incorporates an interactive comment section, a feature not available in major streaming platforms like Netflix and PrimeVideo. The platform features a personalized content recommendation system powered by content-based filtering with cosine similarity. It also performs sentiment analysis on user comments, initially tested with multiple models and ultimately optimized with an LSTM model for higher accuracy. The system enhances user interaction and engagement by providing personalized content suggestions based on user insights.
 
 ### App Preview
 
@@ -18,7 +18,6 @@ SentiCast is a media streaming platform that incorporates an interactive comment
 - **Add to Favorites:** Option to save favorite content for easy access and personalized recommendations.
 - **Search Option:**  Allows users to search for movies, series, and people, making it easier to discover relevant content.
 
-
 ### Tech Stack
 
 - **ReactJS:** For building a dynamic and interactive frontend interface.
@@ -32,7 +31,6 @@ SentiCast is a media streaming platform that incorporates an interactive comment
 - **Logistic Regression, LinearSVC, Random Forest:** For exploring sentiment analysis techniques.
 - **Cosine Similarity:** For content-based recommendation.
 
-
 ### Dataset Used
 
 - **TMDb API:** Movie data fetched from the TMDb API, including movie titles, genres, ratings, and release dates.
@@ -42,7 +40,7 @@ SentiCast is a media streaming platform that incorporates an interactive comment
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/YourUsername/SentiCast.git
+   git clone https://github.com/arnavgholap/SentiCast.git
    ```
 
 2. **Navigate to the Project Directory:**
@@ -60,17 +58,27 @@ SentiCast is a media streaming platform that incorporates an interactive comment
    npm start
    ```
 4. **Access the Application:**
-   - Open your browser and go to http://localhost:3000 to start using the DiagnosticHub.
+   - Open your browser and go to http://localhost:3000 to start using SentiCast.
+
+## Built With 🎯
+**A lot of love and a little JavaScript**
 
 ### Contributing
 
-We welcome contributions to make DiagnosticHub even more feature-rich and accurate. Please fork the repository, make your changes, and submit a pull request.
+Make Pull requests which improve the functionality of the application in any sorts. It should conform with the following conditions. 
+* Clear , short , crisp description of the PR. 
+* Should add on to the value of the application.
 
 ### License
 
-This project is licensed under the [MIT License](LICENSE).
-
-### Acknowledgements
+MIT © [Arnav Gholap](https://github.com/arnavgholap)
 
 - Special thanks to the open-source community for the tools and libraries used in this project.
 - Grateful for the Kaggle dataset and TMDB that provided essential data for training the models.
+
+### Acknowledgments 💖
+
+* To my family👪  and friends 👫 who always kept me motivated.
+* To the community of computer science 💻.
+
+Made with ❤ by Arnav Gholap
